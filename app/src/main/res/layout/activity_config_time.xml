@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/setting_the_remind_time"
+        android:textColor="@color/colorRed"
+        android:textSize="30sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left">
+
+
+
+        <TextView
+            android:id="@+id/txtNP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notification_period"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/npTime"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="textEnd" />
+        <TextView
+            android:id="@+id/txtNp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mins"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left">
+
+
+
+        <TextView
+            android:id="@+id/txtNT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notification_threshold"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/ntTime"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="textEnd" />
+        <TextView
+            android:id="@+id/txtNt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mins"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left">
+
+
+        <TextView
+            android:id="@+id/txtRA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remind_again"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/eTime"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="textEnd" />
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mins"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OK" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
